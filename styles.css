@@ -1,0 +1,354 @@
+p {
+    font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+}
+.modal-content {
+  width: 578px;
+  height: 364px;
+}
+.modal-body {
+  display: grid;
+  margin-top: 50px;
+}
+.modText {
+  width: 312px;
+
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  
+  color: #000000;
+}
+.btn {
+  width: 145px;
+  height: 51px;
+  background: #8C86D7;
+  border-radius: 20px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+}
+.imaNav {
+  width: 100px;
+  height: 60px;
+  mix-blend-mode: normal;
+  border-radius: 2px;
+  margin-left: 100px;
+  margin-right: 248px;
+}
+.barraNav {
+  width: 1440px;
+  height: 80px;
+  background: linear-gradient(
+    270deg,
+    #745ece 0%,
+    rgba(105, 72, 237, 0.41) 47.4%,
+    #5e63c8 82.29%
+  );
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.alert {
+  display: none;
+}
+.buscador {
+  width: 836px;
+  height: 47px;
+  background: #ffffff;
+  margin-right: 0px;
+  margin-top: 18px;
+}
+.butLupa {
+  width: 56px;
+  height: 47px;
+  background: #e5e5e5;
+  border: 1px solid #c6c2c2;
+  box-sizing: border-box;
+  margin-top: 18px;
+}
+.corazon {
+  width: 44px;
+  height: 40px;
+  margin-left: 35px;
+  margin-top: 18px;
+}
+.navbar-brand {
+  margin: 0px;
+  margin-top: 8px;
+}
+.productos {
+  position: relative;
+  width: 1240px;
+  height: 221px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+.main {
+  margin-top: 77px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.productos .img {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  left: 44px;
+  top: 30px;
+}
+.productos .titulo {
+  position: absolute;
+  width: 500px;
+  height: 35px;
+  font-size: 18px;
+  line-height: 22px;
+  left: 348px;
+  top: 112px;
+}
+.productos .precio {
+  position: absolute;
+  width: 150px;
+  height: 35px;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+  left: 348px;
+  top: 30px;
+}
+.productos .icono {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 498px;
+  top: 34px;
+}
+.productos .ciudad {
+  position: absolute;
+  width: 150px;
+  height: 35px;
+  left: 1011px;
+  top: 30px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.detail {
+  position: relative;
+  display: none;
+  margin-top: 15px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 14px;
+}
+.detail .bread {
+  position: absolute;
+  width: 520px;
+  height: 32px;
+  top: 31px;
+  bottom: 12px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.67);
+}
+.detalle {
+  position: absolute;
+  width: 1240px;
+  height: 852px;
+  top: 75px;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+.detalle .imgDetalle {
+  position: absolute;
+  width: 563px;
+  height: 520px;
+  left: 50px;
+  top: 54px;
+  border-radius: 15px;
+}
+.detalle .texto {
+  position: absolute;
+  width: 312px;
+  left: 878px;
+  top: 120px;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+.detalle .titDes {
+    position: absolute;
+    width: 312px;
+    height: 31px;
+    left: 50px;
+    top: 597px;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+}
+.detalle .descripcion {
+    position: absolute;
+    width: 828px;
+    left: 50px;
+    top: 651px;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify;
+    color: #B8ACAC;
+}
+.detalle .unidades {
+    position: absolute;
+    width: 312px;
+    height: 35px;
+    left: 878px;
+    top: 54px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+.detalle .precio2 {
+    position: absolute;
+    width: 312px;
+    height: 33px;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+    left: 878px;
+    top: 230px;
+}
+.detalle .but1 {
+    position: absolute;
+    width: 312px;
+    height: 51px;
+    left: 878px;
+    top: 258px;
+    background: #C968CB;
+    border-radius: 20px;
+    color: white;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+.fav {
+  position: relative;
+  margin-top: 24px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.fav .tituloFav {
+  position: absolute;
+  width: 312px;
+  height: 31px;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+  top: 24px;
+  color: #000000;
+}
+.fav .elimBox {
+  position: absolute;
+  width: 1240px;
+  height: 89px;
+  top: 83px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+.fav .elimBut {
+  position: absolute;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 200px;
+  height: 51px;
+  background: #ECE9E9;
+  border-radius: 20px;
+  top: 15px;
+  left: 100px;
+}
+.fav .check {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 40px;
+  top: 30px;
+  background: #C4C4C4;
+}
+.favoritos {
+  position: relative;
+  width: 1240px;
+  height: 221px;
+  top: 170px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+.fav .favoritos .imgFav {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  left: 100px;
+  top: 20px;
+  border-radius: 15px;
+}
+.fav .favoritos .nameFav {
+  position: absolute;
+  width: 500px;
+  height: 35px;
+  left: 348px;
+  top: 112px;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.fav .favoritos .precioFav {
+  position: absolute;
+  width: 150px;
+  height: 35px;
+  left: 348px;
+  top: 30px;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+.fav .favoritos .iconoFav {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 498px;
+  top: 34px;  
+}
+.fav .favoritos .box {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 40px;
+  top: 92px;
+  border: 1px solid #000000;   
+}
+.fav .favoritos .butFav {
+  position: absolute;
+  width: 200px;
+  height: 51px;
+  left: 984px;
+  top: 67px;
+  background: #C968CB;
+  border-radius: 20px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+}
