@@ -16,6 +16,7 @@ let lupa = document.getElementsByClassName("butLupa")[0];
 let input = document.getElementsByClassName("buscador")[0];
 lupa.addEventListener("click", function () {
   let textInput = input.value;
+  filtro=[];
   for (let i = 0; i < productos.length; i++) {
     let prod = productos[i];
     let cat = productos[i].categories;
